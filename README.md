@@ -124,6 +124,7 @@ Here's a sample launch.json for this scenario:
             "host": "192.168.1.100",
             "password": "password",
             "rootDir": "${workspaceFolder}/dist",
+            "sourceDirs": ["${workspaceFolder}/src"],
             "debugRootDir": "${workspaceFolder}/src",
             "preLaunchTask": "your-build-task-here"
         }
